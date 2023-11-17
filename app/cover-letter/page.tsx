@@ -31,11 +31,12 @@ const page = () => {
         of Nursing, I selected your organization as my specialty clinical
         rotation. Consequently, I have become familiar with the staff, your EMR
         program-SunCoast-as well as the general process of patient care. My
-        background includes a solid foundation in assessing patients' needs,
-        managing complex symptoms, and collaborating with interdisciplinary
-        teams to develop comprehensive care plans. I am dedicated to delivering
-        patient-centered care, maintaining patient and family dignity, and
-        ensuring their comfort during the most challenging times.
+        background includes a solid foundation in assessing patients&apos;
+        needs, managing complex symptoms, and collaborating with
+        interdisciplinary teams to develop comprehensive care plans. I am
+        dedicated to delivering patient-centered care, maintaining patient and
+        family dignity, and ensuring their comfort during the most challenging
+        times.
       </p>
       <p>My qualifications and skills include:</p>
       <ul>
@@ -48,8 +49,8 @@ const page = () => {
           with patients, their families, and the healthcare team.
         </li>
         <li>
-          Expertise in coordinating care and advocating for patients' holistic
-          well-being.
+          Expertise in coordinating care and advocating for patients&apos;
+          holistic well-being.
         </li>
         <li>
           A commitment to continuous learning and staying updated on the latest
@@ -57,11 +58,11 @@ const page = () => {
         </li>
       </ul>
       <p>
-        I am impressed by Kansas City Hospice and Palliative Care’s reputation
-        for excellence in providing compassionate end-of-life care, and I am
-        eager to become part of your organization. Your mission and values align
-        with my personal and professional philosophy, making this a perfect fit
-        for my career goals.
+        I am impressed by Kansas City Hospice and Palliative Care&apos;s
+        reputation for excellence in providing compassionate end-of-life care,
+        and I am eager to become part of your organization. Your mission and
+        values align with my personal and professional philosophy, making this a
+        perfect fit for my career goals.
       </p>
       <p>
         I would welcome the opportunity to discuss how my experience and passion

@@ -20,7 +20,7 @@ const page = () => {
           <h3>Emergency Department</h3>
           <p>Charge Nurse</p>
           <p>University Health</p>
-          <p>7900 Lee's Summit Road</p>
+          <p>7900 Lee&apos;s Summit Road</p>
           <p>Kansas City, MO. 64139</p>
           <p>816-404-7500</p>
         </div>

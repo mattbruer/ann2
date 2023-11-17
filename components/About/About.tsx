@@ -8,9 +8,9 @@ const About = () => {
     <div className={` ${styles.about}`}>
       <h2>About Me</h2>
       <p>
-        I'm Ann Bruer, a certified family nurse practitioner based in Kansas
-        City, Missouri. Prior to nursing, I had a 15-year career in victim
-        advocacy, mainly focusing on intimate partner violence. At 40, I
+        I&apos;m Ann Bruer, a certified family nurse practitioner based in
+        Kansas City, Missouri. Prior to nursing, I had a 15-year career in
+        victim advocacy, mainly focusing on intimate partner violence. At 40, I
         switched careers, first becoming an EMT and eventually earning my BSN
         and MSN.
       </p>
@@ -25,13 +25,13 @@ const About = () => {
       <p>
         I bring a unique perspective to patient care as a congenital heart
         defect patient who underwent three open-heart surgeries. I understand
-        the uncertainty of long-term health care. Additionally, my husbands's
-        diagnosis with Stage IV lung cancer during my BSN program taught me to
-        navigate life's unexpected challenges.
+        the uncertainty of long-term health care. Additionally, my
+        husbands&apos;s diagnosis with Stage IV lung cancer during my BSN
+        program taught me to navigate life&apos;s unexpected challenges.
       </p>
 
       <p>
-        I'm happily married with two children, two stepdaughters, and two
+        I&apos;m happily married with two children, two stepdaughters, and two
         grandsons. Our furry family members include three dogs—Miller, Laila,
         and Chico. Outside of work, I cherish family time, travel, and have a
         keen interest in true crime documentaries.

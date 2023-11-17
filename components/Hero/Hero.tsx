@@ -29,7 +29,7 @@ const Hero = () => {
         transition={{ duration: 2, delay: 1 }}
         className={styles.heroText}
       >
-        <p className={`${styles.hi}`}>Hello, I'm</p>
+        <p className={`${styles.hi}`}>Hello, I&apos;m</p>
         <p className={`${styles.ann} ${playfair.className}`}>Ann Bruer, RN</p>
         <p className={`${styles.np}`}>Nurse Practitioner Student</p>
       </motion.div>

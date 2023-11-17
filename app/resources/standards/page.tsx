@@ -121,8 +121,8 @@ const page = () => {
         <h2>D. Implementation of the plan.</h2>
         <h3>
           Interventions are based upon established priorities and consistent
-          with the NP's specialized education and clinical practice. Actions by
-          NPs are:
+          with the NP&apos;s specialized education and clinical practice.
+          Actions by NPs are:
         </h3>
 
         <ul>
@@ -153,8 +153,8 @@ const page = () => {
 
         <h2>III. Care Priorities</h2>
         <h3>
-          The NP’s practice model emphasizes patient-centered holistic health
-          care:
+          The NP&apos;s practice model emphasizes patient-centered holistic
+          health care:
         </h3>
 
         <h2>A. Patient and family education.</h2>
@@ -217,7 +217,7 @@ const page = () => {
 
         <h2>
           B. Maintenance of current evidence-based knowledge by completing
-          continuing education activities related to the NP's specialty and
+          continuing education activities related to the NP&apos;s specialty and
           clinical practice.
         </h2>
 

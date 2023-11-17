@@ -21,7 +21,7 @@ const page = () => {
         </div>
         <div className="card">
           <h2>Ruth Steward, CNM</h2>
-          <h3>Kansas City Women's Clinic</h3>
+          <h3>Kansas City Women&apos;s Clinic</h3>
           <h3>2340 East Meyer Blvd Ste 598</h3>
           <h3>Kansas City, MO 64132</h3>
 
@@ -58,7 +58,7 @@ const page = () => {
           <h2>Sherri Quick, RN, MSN, CPNP</h2>
           <h3>KU MedWest</h3>
           <h3>241 NW McNary Ct</h3>
-          <h3>Lee's Summit, MO 64086</h3>
+          <h3>Lee&apos;s Summit, MO 64086</h3>
 
           <h3>
             Phone: <a href="tel:(816)347-0064">(816)347-0064</a>
