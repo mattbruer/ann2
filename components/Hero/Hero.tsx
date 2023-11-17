@@ -1,9 +1,14 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { playfair } from "@/app/page";
+import { Playfair_Display } from "next/font/google";
 import styles from "./style.module.css";
 import Image from "next/image";
 import { motion } from "framer-motion";
+
+const playfair = Playfair_Display({
+  weight: "700",
+  subsets: ["latin"],
+});
 const Hero = () => {
   return (
     <div className={styles.heroContainer}>
