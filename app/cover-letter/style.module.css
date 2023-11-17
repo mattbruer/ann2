@@ -1,0 +1,12 @@
+.container p,
+.container ul {
+  margin-bottom: 15px;
+}
+
+.container ul {
+  list-style-type: disc;
+}
+
+.container {
+  padding: 40px;
+}

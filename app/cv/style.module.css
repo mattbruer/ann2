@@ -1,0 +1,11 @@
+.links {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links button {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 10px;
+}

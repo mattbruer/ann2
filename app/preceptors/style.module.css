@@ -1,0 +1,36 @@
+.container h1 {
+  margin: 20px;
+  font-size: 2rem;
+}
+.container h2 {
+  font-size: 1.5rem;
+}
+.preceptors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container h3 {
+  margin-left: 5px;
+}
+
+.container a {
+  margin-left: 5px;
+}
+
+/* body {
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+      padding: 100px;
+    }
+    100% {
+      opacity: 1;
+      padding: 0px;
+    }
+  } */

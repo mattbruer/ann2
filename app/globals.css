@@ -3,25 +3,193 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-primary: #4a5974;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.card-box {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20rem;
+  word-wrap: break-word;
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px black;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+a {
+  color: #3d8387;
+}
+
+button {
+  margin: 20px 0px;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px black;
+  border: 1px solid grey;
+  padding: 10px;
+  color: white;
+  background-color: var(--color-primary);
+}
+
+button:hover {
+  color: white;
+  background-color: #384357;
+}
+.main {
+  margin-top: 100px;
+}
+
+.cv {
+  margin-top: 50px;
+}
+
+.cv h1 {
+  font-size: 1.5rem;
+}
+
+.cv li {
+  list-style-type: disc;
+  font-weight: 200;
+}
+
+.contact {
+  padding: 10px;
+  background-color: #769c9e;
+  color: white;
+}
+.contact a {
+  display: inline-block;
+  margin: auto;
+  color: rgb(15, 72, 158);
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(242, 239, 234);
 }
+.page {
+  padding: 10px;
+}
+.header {
+  background-color: rgb(232, 230, 227);
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 15px;
+  padding: 10px 10px 5px 20px;
+  box-shadow: 0px 0px 2px grey;
+  background-color: white;
+  border-radius: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.section-title {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+.section-content {
+  margin-bottom: 20px;
+}
+.section-left {
+  min-width: 75%;
+  margin-right: 30px;
+}
+
+.section-right {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.section-right h3 {
+  font-weight: lighter;
+}
+
+.section-subtext {
+  margin-left: 10px;
+  max-width: 70%;
+}
+
+ul .section-subtext {
+  font-weight: bolder;
+}
+
+.section-header-date {
+  display: flex;
+}
+
+h4 {
+  font-weight: lighter;
+  font-style: italic;
+}
+.contact {
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.sublist {
+  margin-left: 10px;
+}
+.education-content {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 818px) {
+  .card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section-right {
+    font-size: 0.75rem;
+  }
+
+  .section-left {
+    font-size: 0.9rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+  .cv li {
+    font-size: 0.9rem;
+  }
+}
+
+/* body {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    padding: 100px;
+  }
+  100% {
+    opacity: 1;
+    padding: 0px;
+  }
+} */

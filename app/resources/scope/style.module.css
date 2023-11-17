@@ -1,0 +1,21 @@
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.container h2 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.container p {
+  margin-bottom: 20px;
+  text-indent: 15px;
+}
+
+.container {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+}
