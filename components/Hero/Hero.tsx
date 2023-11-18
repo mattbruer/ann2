@@ -60,6 +60,7 @@ const Hero = () => {
 
         {/* <h2 className={`${playfair.className} text-3xl `}>Ann Bruer</h2> */}
         <motion.div
+          className={styles.stuffText}
           animate={{ opacity: 1, fontSize: "1rem" }}
           initial={{ opacity: 0, fontSize: "0rem" }}
           transition={{ duration: 0.5, delay: 1 }}

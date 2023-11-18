@@ -34,14 +34,12 @@
 }
 .heroText {
   position: absolute;
-
-  font-size: 1.5rem;
   top: 30%;
   left: 5%;
-  /* left: calc(5vw + 10px); */
   z-index: 2;
   border-radius: 5px;
   text-shadow: 3px 1px 12px rgb(2, 2, 2);
+  transition: all 2s;
 }
 .hi {
   font-size: 4vw;
@@ -50,6 +48,7 @@
 }
 .ann {
   font-size: 8vw;
+  transition: all 2s;
 }
 
 .np {
@@ -72,6 +71,7 @@
   background-color: #1c272aa8;
   border-left: 1px solid black;
   text-shadow: 0px 0px 1px black;
+  transition: all 2s;
 }
 
 .headshot {
@@ -83,4 +83,29 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.681);
   box-shadow: inset 0px 0px 35px 10px var(--color-primary), 5px 5px 5px black;
+  transition: all 2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .stuff {
+    width: 175px;
+    font-size: 0.75rem;
+  }
+  .stuff p {
+    font-size: 0.8rem;
+  }
+  .stuff a {
+    font-size: 0.75rem;
+  }
+  .headshot {
+    width: 150px;
+    height: 150px;
+  }
+  .ann {
+    font-size: 7vw;
+  }
+  .heroText {
+    top: 30%;
+    left: 3%;
+  }
 }
